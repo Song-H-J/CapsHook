@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'xbox_control = remoteXbox.xbox_control:main',
+            'keyboard_control = remoteXbox.keyboard_control:main',
         ],
     },
 )
